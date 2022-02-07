@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@300;400;500;600;700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@400;600;700&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alata", sans-serif;
+}
+.default-background-section {
+  background-image: url(./images/desktop/image-hero.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navigation-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 120px;
+}
+.nav-anchor a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.default-background-section h1 {
+  position: absolute;
+  top: 40%;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  line-height: 80px;
+  left: 120px;
+  font-size: 60px;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+.intro-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 120px;
+  height: 80vh;
+}
+.intro-desc {
+  /* border: 1px solid black; */
+  position: relative;
+  left: -40px;
+  top: 50px;
+  padding: 40px;
+  background-color: white;
+  padding-left: 30px;
+}
+.intro-desc h1 {
+  font-size: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.intro-desc p {
+  color: gray;
+}
+.details-overview {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 120px;
+  margin-bottom: 50px;
+}
+.details-overview h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+}
+.details-overview button {
+  padding: 2px 30px;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  letter-spacing: 3px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 120px;
+  margin-bottom: 100px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+  position: relative;
+  height: 400px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+.one h1,
+.three h1,
+.two h1,
+.four h1,
+.five h1,
+.six h1,
+.seven h1,
+.eight h1 {
+  position: relative;
+  top: 300px;
+  left: 30px;
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.one {
+  background-image: url(./images/desktop/image-deep-earth.jpg);
+  background-size: cover;
+}
+.two {
+  background-image: url(./images/desktop/image-night-arcade.jpg);
+  background-size: cover;
+}
+.three {
+  background-image: url(./images/desktop/image-soccer-team.jpg);
+  background-size: cover;
+}
+.four {
+  background-image: url(./images/desktop/image-grid.jpg);
+  background-size: cover;
+}
+.five {
+  background-image: url(./images/desktop/image-from-above.jpg);
+  background-size: cover;
+}
+.six {
+  background-image: url(./images/desktop/image-pocket-borealis.jpg);
+  background-size: cover;
+}
+.seven {
+  background-image: url(./images/desktop/image-curiosity.jpg);
+  background-size: cover;
+}
+.eight {
+  background-image: url(./images/desktop/image-fisheye.jpg);
+  background-size: cover;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+  color: white;
+  background-color: black;
+  padding: 0 120px;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+.icons {
+  margin-left: 150px;
+}
+.icons img {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.copyright p {
+  color: gray;
+}
